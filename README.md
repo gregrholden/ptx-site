@@ -3,4 +3,4 @@ This website is statically coded which is not a good representation of how websi
 
 The bulk of this website is an imitation of Pentatonix's official site (ptxofficial.com) as of Aug 2020, with mild variations where I felt the styles or function of the site could've been modified to make the site simpler. I also cut down on the number of images and videos due to how React loads them when they are statically typed versus pulled in via an API or database.
 
-If you want to view this version of the site, which I recommend :), you may need to run an initial build with "npm run build" before being able to view it with "npm start" (which opens the site in Chrome and spins up a local dev server.
+If you want to view this version of the site, which I recommend :), you may need to run an initial build with "npm run build" before being able to view it with "npm start" (which opens the site in Chrome and spins up a local dev server).

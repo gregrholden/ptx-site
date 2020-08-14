@@ -1,0 +1,11 @@
+.bio-page {
+  img {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+  }
+  &__body {
+    margin: 0 auto;
+    width: 55%;
+  }
+}

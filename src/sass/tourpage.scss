@@ -1,0 +1,23 @@
+.tour-page {
+  width: 60%;
+  margin: 0 auto;
+  .red {
+    color: #f3829e;
+    font-weight: 700;
+  }
+  table {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    text-align: center;
+    .svg-inline--fa {
+      color: #f8ae38;
+    }
+    th:first-of-type, tr:first-of-type {
+      width: 10%;
+    }
+    td {
+      padding: 15px;
+    }
+  }
+}

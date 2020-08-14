@@ -1,0 +1,14 @@
+.carousel {
+  width: 100%;
+  width: 50% !important;
+  margin: 45px auto;
+  .carousel-status {
+    visibility: hidden;
+  }
+  .thumbs-wrapper {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+  }
+}

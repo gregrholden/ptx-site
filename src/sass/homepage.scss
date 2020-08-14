@@ -1,0 +1,24 @@
+.homepage__text {
+  width: 50%;
+  margin: 40px auto;
+  padding: 75px;
+  font-size: 1.75rem;
+  background-color: #f3829e;
+  color: #fff;
+  &--white {
+    width: 50%;
+    margin: 0 auto;
+    padding: 75px;
+    font-size: 1.75rem;
+    background-color: #fff;
+    color: #f3829e;
+  }
+}
+
+.banner--promo {
+  margin-top: 75px;
+  text-align: center;
+  img {
+    width: 1280px;
+  }
+}

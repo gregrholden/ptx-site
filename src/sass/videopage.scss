@@ -1,0 +1,30 @@
+.video-page {
+  width: 70%;
+  margin: 0 auto;
+  .player {
+    float: left;
+    margin-top: 45px;
+    margin-bottom: 145px;
+  }
+  .playlist-container {
+    width: 400px;
+    float: right;
+    margin-top: 45px;
+    h2 {
+      text-align: center;
+    }
+    .playlist {
+      overflow-y: scroll;
+      height: 750px;
+      ul {
+        list-style-type: none;
+      }
+      p {
+        text-align: center;
+      }
+      img {
+        width: 325px;
+      }
+    }
+  }
+}

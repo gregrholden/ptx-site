@@ -1,0 +1,67 @@
+.container__jumbotron {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#jumbotron {
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  justify-content: center;
+  div {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 0px solid #ddd;
+    border-radius: 25px;
+    &.animated {
+      animation: rainbow 1s linear;
+    }
+  }
+  h1 {
+    font-size: 8.5rem;
+    position: absolute;
+    pointer-events: none;
+    top: 110px;
+    color: #3fb094;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: initial
+  }
+  16% {
+    background-color: #ff634780;
+  }
+  22% {
+    background-color: #cd5c5c80;
+  }
+  33% {
+    background-color: #ffd70080;
+  }
+  44% {
+    background-color: #90ee9080;
+  }
+  55% {
+    background-color: #7fffd480;
+  }
+  66% {
+    background-color: #19197080;
+  }
+  77% {
+    background-color: #483d8b80;
+  }
+  88% {
+    background-color: #4b008280;
+  }
+  100% {
+    background-color: initial;
+  }
+}
